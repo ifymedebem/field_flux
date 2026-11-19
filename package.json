@@ -1,0 +1,9 @@
+{
+  "name": "fieldflux",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/prepare-offline.mjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "description": "Browser-local manual chamber CO2 and CH4 flux analysis"
+}
